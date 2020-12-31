@@ -1,0 +1,30 @@
+---
+title: "Template for manuscript writing based on R Markdown and the bookdown package to create GitBook and Word document outputs."
+author: "Lucas Etzel"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+github-repo: "lucas-etzel/manuscript-template"
+description: "This project is designed as a template for manuscript writing based on R Markdown and the [bookdown package](<https://bookdown.org/>) to create GitBook and Word document outputs."
+link-citations: yes
+---
+
+```{r global-settings, include = FALSE}
+
+# Load required R packages:
+library(rmarkdown)
+library(knitr)
+library(tidyverse)
+library(magrittr)
+library(ggpubr)
+library(officer)
+library(flextable)
+
+# Create .bib file containing references with the R packages:
+# write_bib(c(.packages(), "rmarkdown", "knitr", "tidyverse", "magrittr", "ggpubr", "officer", "flextable"), file = "_01-references/packages.bib")
+
+# Source R code to load data and perform data wrangling:
+```
+
+# Title page {-}
+
+This project is designed as a template for manuscript writing based on R Markdown and the [bookdown package](<https://bookdown.org/>) to create GitBook and Word document outputs.
