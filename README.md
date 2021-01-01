@@ -54,11 +54,37 @@ This R markdown file contains R chunks to load external images or display figure
 
 This R markdown file contains R chunks to display tables generated during data analysis.
 
+## Subdirectories
+
+### _01-references
+
+This subdirectory contains .bib files which contain the reference data and citation keys to be called in the manuscript. The index.rmd file contains a line of R code to generate a packages.bib file containing the citaion keys for the packages specifically loaded for the manuscript R code execution and manuscript creation. Files containting literature references can be stored here after exporting them from a  reference managers such as Mendeley or Zotero.
+
+### _02-formatting
+
+This subdirectory contains the template.docx file necessary for the correct Word document output, as well as a .csl file that defines the citation style used in the manuscript.
+
+### _03-scripts
+
+This subdirectory contains the R scripts necessary for all data wrangling and analysis as well as inline code, figure and table creation (these will be printed in small R chunks in the actual results section).
+
+### _04-data
+
+This subdirectory contains the data files relevant to the anaylysis, and may contain symlinks to externally stored data files (if the user wants to store the data files outside of the repository structure).
+
+### _05-output
+
+This subdirectory is defined in the _bookdown.yml file and is updated upon book building to contain the .html and .docx files as well as auxillary files and figures needed to create the final output documents.
+
 ## YAML files
 
 ### _bookdown.yml
 
+This YAML file contains optional additional settings to configure the manuscript creation.
+
 ### _output.yml
+
+This YAML file contains settings for the manuscript creation.
 
 ## License
 
