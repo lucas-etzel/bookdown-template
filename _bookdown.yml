@@ -1,4 +1,4 @@
 book_filename: "manuscript.Rmd"
 delete_merged_file: TRUE
-output_dir: "_03-output"
+output_dir: "_05-output"
 clean_book: TRUE
