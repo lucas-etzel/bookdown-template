@@ -1,1 +1,30 @@
-# Methods {#methods}
+# Methods {- #methods}
+
+```{r, include = FALSE}
+
+# Print text describibg the subsections only if GitBook is output:
+
+if (is_html_output()) {
+  methods_readme <- "This is a text block output [test](#study-cohort)."
+} else {
+  methods_readme <- NULL
+}
+
+```
+
+`r methods_readme`
+
+## First section {- #study-cohort}
+
+Between x and x, patients were offered study enrollment.
+
+## Second section {-}
+
+asdasgadgs
+
+asdggasdasdgsag
+
+<br>
+
+adsgagsd
+asgdgs

@@ -1,1 +1,23 @@
-# Tables {-}
+# Tables {- #tables}
+
+- [Mean sepal width dependent on species 1]tab:tab-sepal-width-by-species)
+
+- [Mean sepal width dependent on species 2]tab:tab-sepal-width-by-species2)
+
+## Table example 1 {- #table-example-1} 
+
+```{r tab-sepal-width-by-species, echo = FALSE}
+
+tab_sepal_width_by_species %>% 
+  kable(caption = "Mean sepal width dependent on species")
+
+```
+
+## Table example 2 {- #table-example-2} 
+
+```{r tab-sepal-width-by-species2, echo = FALSE}
+
+tab_sepal_width_by_species %>% 
+  kable(caption = "Mean sepal width dependent on species")
+
+```

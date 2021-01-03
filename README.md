@@ -1,6 +1,6 @@
 # Manuscript template
 
-This project is designed as a template for manuscript writing based on R Markdown and the [bookdown package](<https://bookdown.org/>) to create GitBook and Word document outputs.
+This project created by Lucas Etzel functions as a template for manuscript writing based on R Markdown and the [bookdown package](<https://bookdown.org/>) to create GitBook and Word document outputs.
 
 # Project structure
 
