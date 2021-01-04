@@ -2,11 +2,6 @@
 
 This project created by Lucas Etzel functions as a template for manuscript writing based on R Markdown and the [bookdown package](<https://bookdown.org/>) to create GitBook and Word document outputs.
 
-if submission_ready is set to TRUE, figures will be surpressed in word output, but be saved seperately, also a figure legend will be printed, and 
-
-
-idea: use parametres in yaml main header, to specify whether ready for submission or not. Based on params, ensure template etc, creating seperate pages for the Tables or figure legends etc
-
 # Project structure
 
 ## Gitignore file
@@ -61,25 +56,31 @@ This R markdown file contains R chunks to display tables generated during data a
 
 ## Subdirectories
 
-### _01-references
-
-This subdirectory contains .bib files which contain the reference data and citation keys to be called in the manuscript. The index.rmd file contains a line of R code to generate a packages.bib file containing the citaion keys for the packages specifically loaded for the manuscript R code execution and manuscript creation. Files containting literature references can be stored here after exporting them from a  reference managers such as Mendeley or Zotero.
-
-### _02-formatting
-
-This subdirectory contains the template.docx file necessary for the correct Word document output, as well as a .csl file that defines the citation style used in the manuscript.
-
-### _03-scripts
-
-This subdirectory contains the R scripts necessary for all data wrangling and analysis as well as inline code, figure and table creation (these will be printed in small R chunks in the actual results section).
-
-### _04-data
+### _bookdown_data
 
 This subdirectory contains the data files relevant to the anaylysis, and may contain symlinks to externally stored data files (if the user wants to store the data files outside of the repository structure).
 
-### _05-output
+### _bookdown_files
+
+### _bookdown_formatting
+
+This subdirectory contains the template.docx file necessary for the correct Word document output, as well as a .csl file that defines the citation style used in the manuscript.
+
+### _bookdown_input
+
+This subdirectory contains images to be input into the manuscript.
+
+### _bookdown_output
 
 This subdirectory is defined in the _bookdown.yml file and is updated upon book building to contain the .html and .docx files as well as auxillary files and figures needed to create the final output documents.
+
+### _bookdown_references
+
+This subdirectory contains .bib files which contain the reference data and citation keys to be called in the manuscript. The index.rmd file contains a line of R code to generate a packages.bib file containing the citaion keys for the packages specifically loaded for the manuscript R code execution and manuscript creation. Files containting literature references can be stored here after exporting them from a  reference managers such as Mendeley or Zotero.
+
+### _bookdown_scripts
+
+This subdirectory contains the R scripts necessary for all data wrangling and analysis as well as inline code, figure and table creation (these will be printed in small R chunks in the actual results section).
 
 ## YAML files
 
