@@ -1,8 +1,8 @@
 # Tables {- #tables}
 
-- [Mean sepal width dependent on species 1]tab:tab-sepal-width-by-species)
+- [Mean sepal width dependent on species 1](#table-example-1)
 
-- [Mean sepal width dependent on species 2]tab:tab-sepal-width-by-species2)
+- [Mean sepal width dependent on species 2](#table-example-2)
 
 ## Table example 1 {- #table-example-1} 
 

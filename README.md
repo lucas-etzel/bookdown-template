@@ -2,6 +2,11 @@
 
 This project created by Lucas Etzel functions as a template for manuscript writing based on R Markdown and the [bookdown package](<https://bookdown.org/>) to create GitBook and Word document outputs.
 
+if submission_ready is set to TRUE, figures will be surpressed in word output, but be saved seperately, also a figure legend will be printed, and 
+
+
+idea: use parametres in yaml main header, to specify whether ready for submission or not. Based on params, ensure template etc, creating seperate pages for the Tables or figure legends etc
+
 # Project structure
 
 ## Gitignore file

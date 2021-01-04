@@ -23,8 +23,8 @@ library(flextable)
 # write_bib(c(.packages(), "rmarkdown", "knitr", "tidyverse", "magrittr", "ggpubr", "officer", "flextable"), file = "_01-references/packages.bib")
 
 # Source R code to load data and perform data wrangling:
-source("_03-scripts/figures.R")
-source("_03-scripts/tables.R")
+source("_bookdown_scripts/figures.R")
+source("_bookdown_scripts/tables.R")
 ```
 
 # Title page {-}

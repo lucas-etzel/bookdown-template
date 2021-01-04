@@ -1,5 +1,5 @@
 bookdown::gitbook:
-  split_by: section+number
+  split_by: section
   config:
     toc:
       collapse: subsection
@@ -27,5 +27,5 @@ bookdown::gitbook:
     info: yes
   
 bookdown::word_document2:
-  reference_docx: _02-formatting/template.docx
+  reference_docx: _bookdown_formatting/template.docx
   toc: TRUE
