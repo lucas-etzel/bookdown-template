@@ -1,3 +1,0 @@
-fig:print-plot-sepal-width-by-species
-tab:tab-sepal-width-by-species
-tab:tab-sepal-width-by-species2

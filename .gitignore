@@ -2,6 +2,3 @@
 .Rhistory
 .RData
 .Ruserdata
-# /_04-data/"symlink-to-external-data" containing the symlinks to externally stored data files
-/_05-output
-notes.txt

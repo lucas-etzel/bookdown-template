@@ -1,4 +1,8 @@
 book_filename: "manuscript.Rmd"
 delete_merged_file: TRUE
-output_dir: "_bookdown_output"
+output_dir: "_bookdown_files"
 clean_book: TRUE
+language:
+  label:
+    tab: "Table "
+    fig: "Figure "

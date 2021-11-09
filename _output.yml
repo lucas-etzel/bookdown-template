@@ -1,31 +1,35 @@
 bookdown::gitbook:
-  split_by: section
+  split_by: chapter
+  split_bib: no
   config:
     toc:
       collapse: subsection
-      scroll_highlight: yes
+      scroll_highlight: true
       before: null
       after: null
     toolbar:
       position: fixed
     edit : null
     download: null
-    search: yes
+    search:
+      engine: lunr
+      options: null
     fontsettings:
       theme: white
       family: sans
       size: 2
     sharing:
-      facebook: yes
-      github: no
-      twitter: yes
-      linkedin: no
-      weibo: no
-      instapaper: no
-      vk: no
-      all: ['facebook', 'twitter', 'linkedin', 'weibo', 'instapaper']
-    info: yes
+      facebook: false
+      github: false
+      twitter: false
+      linkedin: false
+      weibo: false
+      instapaper: false
+      vk: false
+      whatsapp: false
+    info: true
   
 bookdown::word_document2:
-  reference_docx: _bookdown_formatting/template.docx
-  toc: TRUE
+  reference_docx: _bookdown_formatting/template_calibri.docx
+  toc: yes
+  toc_depth: 2

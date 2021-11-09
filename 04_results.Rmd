@@ -1,0 +1,5 @@
+# Results {.unnumbered}
+
+An exemplary Figure is depicted in Figure \@ref(fig:print-plot-sepal-width-by-species).
+
+An exemplary Table \@ref(tab:tab-sepal-width-by-species).

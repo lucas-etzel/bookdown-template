@@ -1,11 +1,15 @@
 ---
-title: "Template for manuscript writing based on R Markdown and the bookdown package to create GitBook and Word document outputs."
-author: "Lucas Etzel"
-date: "`r Sys.Date()`"
+title: "Bookdown project template for reproducible manuscript writing"
+subtitle: "Lucas Etzel^1^"
+author: "^1^ Department of Radiation Oncology, Klinikum Rechts der Isar, School of Medicine, Technical University of Munich (TUM), Ismaninger Straße 22, 81675 Munich, Germany"
+date: "*Corresponding author*  \nLucas Etzel  \nDepartment of Radiation Oncology, Klinikum Rechts der Isar  \nSchool of Medicine, Technical University of Munich (TUM)  \nIsmaninger Straße 22, 81675 Munich, Germany  \nE-mail: lucas.etzel@<!-- breaklink-->tum.de"
 site: bookdown::bookdown_site
 github-repo: "lucas-etzel/manuscript-template"
-description: "This project is designed as a template for manuscript writing based on R Markdown and the [bookdown package](<https://bookdown.org/>) to create GitBook and Word document outputs."
-link-citations: yes
+bibliography:
+- "_bookdown_references/packages.bib"
+csl: "_bookdown_formatting/springer-mathphys-brackets.csl"
+link-citations: true
+toc-title: "Contents"
 ---
 
 ```{r global-settings, include = FALSE}
@@ -14,19 +18,13 @@ link-citations: yes
 library(rmarkdown)
 library(knitr)
 library(tidyverse)
-library(magrittr)
-library(ggpubr)
-library(officer)
-library(flextable)
+library(bookdown)
 
 # Create .bib file containing references with the R packages:
-# write_bib(c(.packages(), "rmarkdown", "knitr", "tidyverse", "magrittr", "ggpubr", "officer", "flextable"), file = "_01-references/packages.bib")
+write_bib(c(.packages(), "rmarkdown", "knitr", "tidyverse", "bookdown"),
+          file = "_bookdown_references/packages.bib")
 
 # Source R code to load data and perform data wrangling:
 source("_bookdown_scripts/figures.R")
 source("_bookdown_scripts/tables.R")
 ```
-
-# Title page {-}
-
-This project is designed as a template for manuscript writing based on R Markdown and the [bookdown package](<https://bookdown.org/>) to create GitBook and Word document outputs.
