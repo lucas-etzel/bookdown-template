@@ -98,6 +98,14 @@ This R markdown file contains R chunks to display tables generated during data a
 
 ------------------------------------------------------------------------
 
+## Project file
+
+### bookdown-template.Rproj
+
+This file can be used to open the project directly from the filesystem, and represents the location of the project directory.
+
+------------------------------------------------------------------------
+
 ## Index file
 
 ### index.Rmd
@@ -111,14 +119,6 @@ This R markdown file contains the frontmatter YAML header, an R chunk for global
 ### LICENSE
 
 This file contains the MIT License for this project.
-
-------------------------------------------------------------------------
-
-## Project file
-
-### manuscript-template.Rproj
-
-This file can be used to open the project directly from the filesystem, and represents the location of the project directory.
 
 ------------------------------------------------------------------------
 
