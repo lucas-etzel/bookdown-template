@@ -2,3 +2,12 @@
 .Rhistory
 .RData
 .Ruserdata
+.DS_Store
+_bookdown_archive/.DS_Store
+_bookdown_data/.DS_Store
+_bookdown_documentation/.DS_Store
+_bookdown_files/.DS_Store
+_bookdown_formatting/.DS_Store
+_bookdown_references/.DS_Store
+_bookdown_resources/.DS_Store
+_bookdown_scripts/.DS_Store
