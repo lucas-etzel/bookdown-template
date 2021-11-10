@@ -1,0 +1,17 @@
+# Figures {.unnumbered}
+
+```{r print-plot-sepal-width-by-species, dpi = 300, fig.cap = "Sepal width dependent on species", echo = FALSE}
+
+# Print plot
+print(plt_sepal_width_by_species)
+```
+
+<br>
+
+\newpage
+
+```{r print-plot-sepal-width-by-species2, dpi = 300, fig.cap = "Sepal width dependent on species", echo = FALSE}
+
+# Print plot
+print(plt_sepal_width_by_species)
+```

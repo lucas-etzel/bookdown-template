@@ -1,0 +1,21 @@
+# Tables {.unnumbered}
+
+```{r tab-sepal-width-by-species, echo = FALSE}
+
+# Print table
+tab_sepal_width_by_species %>% 
+  kable(caption = "Mean sepal width dependent on species")
+
+```
+
+<br>
+
+\newpage
+
+```{r tab-sepal-width-by-species2, echo = FALSE}
+
+# Print table
+tab_sepal_width_by_species %>% 
+  kable(caption = "Mean sepal width dependent on species")
+
+```

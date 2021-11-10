@@ -2,7 +2,7 @@
 title: "Bookdown project template for reproducible manuscript writing"
 subtitle: "Lucas Etzel^1^"
 author: "^1^ Department of Radiation Oncology, Klinikum Rechts der Isar, School of Medicine, Technical University of Munich (TUM), Ismaninger Straße 22, 81675 Munich, Germany"
-date: "*Corresponding author*  \nLucas Etzel  \nDepartment of Radiation Oncology, Klinikum Rechts der Isar  \nSchool of Medicine, Technical University of Munich (TUM)  \nIsmaninger Straße 22, 81675 Munich, Germany  \nE-mail: lucas.etzel@<!-- breaklink-->tum.de"
+date: "**Corresponding author**  \nLucas Etzel  \nDepartment of Radiation Oncology, Klinikum Rechts der Isar  \nSchool of Medicine, Technical University of Munich (TUM)  \nIsmaninger Straße 22, 81675 Munich, Germany  \nE-mail: lucas.etzel@<!-- breaklink-->tum.de"
 site: bookdown::bookdown_site
 github-repo: "lucas-etzel/manuscript-template"
 bibliography:
